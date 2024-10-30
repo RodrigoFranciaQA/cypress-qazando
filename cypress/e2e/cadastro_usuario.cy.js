@@ -40,7 +40,7 @@ describe("Cadastro de usuário", () => {
     );
   });
 
-  it("Campo senha Invalida", () => {
+  it("Campo senha Invalida!", () => {
     cadastro_page.escreverCampoNome("Rodrigo");
     cadastro_page.escreverCampoEmail("rodrigo@gmail.com");
     cadastro_page.escreverCampoPassword("1234");
